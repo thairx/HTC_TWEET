@@ -1,0 +1,95 @@
+* {
+    font-family: 'Roboto Slab' , sans-serif;
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+mein{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    border: 1px solid #DADDDF;
+    padding: 17px 17px 19px 17px;
+    width: 591px;
+    height: 161px;
+    margin: auto;
+}
+
+.image{
+    margin-right: 12px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+h1{
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #0F1419;
+    margin-right: 3px;
+    
+}
+
+.verify{
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+h2{
+    color: #536471;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 3px;
+}
+
+.ball{
+    width: 5px;
+    height: 5px;
+    margin-right: 3px;
+}
+
+.date{
+    font-size: 15px;
+    color: #536471;
+}
+
+.text{
+    width: 430px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 15px;
+    color: #0F1419;
+}
+
+.interations{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 13px;
+    color: #536471;
+}
+
+.interations-itens{
+    display: flex;
+    align-items: center;
+}
+
+.interations-itens img{
+    margin-right: 19px;
+}
